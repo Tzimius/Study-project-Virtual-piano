@@ -1,5 +1,5 @@
 html{background-color: aquamarine;}
-div.white-keys kbd{background-color: white;
+.white-keys kbd{background-color: white;
     display: inline-block;
     border: 2px solid black;
     width: 40px;
@@ -7,17 +7,23 @@ div.white-keys kbd{background-color: white;
     padding: 60px 0px 0px 0px;
     text-align: center;
 }
-div.black-keys kbd{background-color: black;
+.black-keys kbd{background-color: black;
     display: inline-block;
     border: 2px solid black;
     width: 30px;
-    height: 60px;
+    height: 40px;
     padding: 60px 0px 0px 0px;
     text-align: center;
     color: white;
 }
-div.container{
+.container{
     position: relative;
     width: 23%;
     margin: 10% auto;
+}
+#empty{background-color: blanchedalmond;
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    padding: 60px 0px 0px 0px;
 }
