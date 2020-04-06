@@ -1,16 +1,22 @@
 html{background-color: aquamarine;}
-.white-keys kbd{background-color: white;
-    display: inline-block;
+.white-keys {background-color: white;
+    position: absolute;
+    top: 0;
+    display: flex;
     border: 2px solid black;
     width: 40px;
     height: 80px;
     padding: 60px 0px 0px 0px;
     text-align: center;
+    align-items: flex-end;
+    justify-content: center;
 }
-.black-keys kbd{background-color: black;
+.black-keys {background-color: black;
+    position: absolute;
+    top: 0;
     display: inline-block;
     border: 2px solid black;
-    width: 30px;
+    width: 20px;
     height: 40px;
     padding: 60px 0px 0px 0px;
     text-align: center;
@@ -18,7 +24,8 @@ html{background-color: aquamarine;}
 }
 .container{
     position: relative;
-    width: 23%;
+    height: 300px;
+    width: 600px;
     margin: 10% auto;
 }
 #empty{background-color: blanchedalmond;
@@ -27,3 +34,5 @@ html{background-color: aquamarine;}
     height: 40px;
     padding: 60px 0px 0px 0px;
 }
+#A{left: 0}#S{left: 40px}#D{left: 80px}#F{left: 120px}#G{left: 160px}#H{left: 200px}#J{left: 240px}
+#W{left: 30px}#E{left: 70px}#T{left: 150px}#Y{left: 190px}#U{left: 230px}
